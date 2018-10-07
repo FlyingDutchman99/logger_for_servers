@@ -10,7 +10,9 @@
   c) Optimize the code because obviously, "Performance is everything."
   d) given enough time I could try making it run using multiple cores.
 
-# Assumption : server generates log files in ascending order of time i.e. latest logs are kept at the end. This is not the case for out.log file which has descending order of logs arrange. Please see to it. Thank You.
+# Assumption : server generates logs files arranged in ascending order of time i.e. latest logs are kept at the end. This is not the case for out.log file which is arranged in descending (time)order of logs. analyze.py works for both types of logs but monitorlog.py only work for latest at the last type of files.Please see to it. Thank You.
+
+
 
 # logger_for_servers
 # Contain all the nessassary files for successfull running.
