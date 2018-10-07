@@ -10,6 +10,7 @@
   c) Optimize the code because obviously, "Performance is everything."
   d) given enough time I could try making it run using multiple cores.
 
+# Assumption : server generates log files in ascending order of time i.e. latest logs are kept at the end. This is not the case for out.log file which has descending order of logs arrange. Please see to it. Thank You.
 
 # logger_for_servers
 # Contain all the nessassary files for successfull running.
